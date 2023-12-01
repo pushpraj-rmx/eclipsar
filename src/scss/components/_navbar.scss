@@ -1,0 +1,18 @@
+// _navbar.scss
+.navbar {
+    background-color: $primary-color;
+    padding: 10px;
+  
+    a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 20px;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  // Add more navbar styles as needed
+  

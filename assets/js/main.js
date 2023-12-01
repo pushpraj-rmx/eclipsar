@@ -1,0 +1,1 @@
+(()=>{"use strict";document.addEventListener("DOMContentLoaded",(function(){document.getElementById("themeToggleBtn").addEventListener("click",(function(){document.body.classList.toggle("dark-theme"),document.body.classList.toggle("light-theme")}))})),console.log("hi..ii")})();

@@ -1,0 +1,8 @@
+// _functions.scss
+@function calculateRem($size) {
+    $remSize: $size / 16px;
+    @return #{$remSize}rem;
+  }
+  
+  // Add more functions as needed
+  

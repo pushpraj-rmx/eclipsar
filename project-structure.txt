@@ -1,0 +1,55 @@
+.
+├── archive
+│   ├── index.html
+│   ├── scripts
+│   ├── styles
+│   │   ├── base
+│   │   │   ├── _reset.scss
+│   │   │   └── _typography.scss
+│   │   ├── components
+│   │   │   └── _buttons.scss
+│   │   ├── headers
+│   │   │   └── _desktop-header.scss
+│   │   ├── main.scss
+│   │   └── themes
+│   │       ├── _dark-theme.scss
+│   │       ├── _light-theme.scss
+│   │       └── _theme.scss
+│   └── tree
+├── assets
+│   ├── css
+│   │   └── main.css
+│   └── js
+├── dist
+├── gulpfile.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── project-structure.txt
+├── src
+│   ├── js
+│   │   ├── main.js
+│   │   └── modules
+│   └── scss
+│       ├── abstracts
+│       │   ├── _functions.scss
+│       │   ├── _mixins.scss
+│       │   └── _variables.scss
+│       ├── base
+│       │   ├── _reset.scss
+│       │   └── _typography.scss
+│       ├── components
+│       │   ├── _buttons.scss
+│       │   └── _navbar.scss
+│       ├── layout
+│       │   ├── _footer.scss
+│       │   ├── _grid.scss
+│       │   └── _header.scss
+│       ├── main.scss
+│       └── themes
+│           ├── _dark.scss
+│           └── _light.scss
+├── tree
+└── webpack.config.js
+
+21 directories, 32 files
