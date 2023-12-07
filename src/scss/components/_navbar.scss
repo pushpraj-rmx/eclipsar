@@ -1,18 +1,55 @@
-// _navbar.scss
-.navbar {
-    background-color: $primary-color;
-    padding: 10px;
-  
-    a {
-      color: #fff;
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  & li {
+    list-style-type: none;
+    padding: 5px 10px;
+    & a {
       text-decoration: none;
-      margin-right: 20px;
-  
-      &:hover {
-        text-decoration: underline;
+    }
+  }
+}
+
+// .dropdown {
+//   position: relative;
+// }
+
+.dropbtn {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  & a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-card {
+  background-color: $secondary-color;
+  & .links-card-wrapper {
+    display: flex;
+    & ul {
+      display: block;
+      & li {
+        width: 100px;
       }
     }
   }
-  
-  // Add more navbar styles as needed
-  
+
+  & .side-image img {
+    max-width: 120px;
+  }
+}

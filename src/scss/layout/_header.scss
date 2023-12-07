@@ -1,13 +1,10 @@
-// _header.scss
 header {
-    background-color: $primary-color;
-    color: #fff;
-    padding: 10px 0;
-  
-    h1 {
-      font-size: 2rem;
-    }
+  background-color: $primary-color;
+  // color: $light-text;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo img {
+    max-height: 100px; 
   }
-  
-  // Add more header styles as needed
-  
+}

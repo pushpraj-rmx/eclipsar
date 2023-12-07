@@ -1,8 +1,10 @@
 // main.js
-import { initializeThemeToggle } from './modules/themeToggle';
+import { themeToggle } from './modules/themeToggle';
+import { dropdown } from './modules/dropdown';
 
 // Initialize the theme toggle functionality
-initializeThemeToggle();
+themeToggle();
+dropdown();
 
 // Add more code as needed...
-console.log('hi..ii')
+console.log('hi..')

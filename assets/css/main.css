@@ -29,17 +29,55 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #217dbb;
 }
 
-.navbar {
-  background-color: #3498db;
-  padding: 10px;
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.navbar a {
-  color: #fff;
+nav ul li {
+  list-style-type: none;
+  padding: 5px 10px;
+}
+nav ul li a {
   text-decoration: none;
-  margin-right: 20px;
 }
-.navbar a:hover {
-  text-decoration: underline;
+
+.dropbtn {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  background-color: #2ecc71;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-card {
+  background-color: #2ecc71;
+}
+.nav-card .links-card-wrapper {
+  display: flex;
+}
+.nav-card .links-card-wrapper ul {
+  display: block;
+}
+.nav-card .links-card-wrapper ul li {
+  width: 100px;
+}
+.nav-card .side-image img {
+  max-width: 120px;
 }
 
 .container {
@@ -55,11 +93,12 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   background-color: #3498db;
-  color: #fff;
-  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-header h1 {
-  font-size: 2rem;
+header .logo img {
+  max-height: 100px;
 }
 
 footer {
